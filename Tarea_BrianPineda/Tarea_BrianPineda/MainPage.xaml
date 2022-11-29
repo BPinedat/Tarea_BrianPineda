@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_BrianPineda.MainPage">
+   <ContentPage.Content>
+    <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Operaciones Basicas!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Entry x:Name="txtnumero1" Placeholder="Ingrese un numero" Keyboard="Numeric" />
+
+            <Entry x:Name="txtnumero2" Placeholder="Ingrese un numero" Keyboard="Numeric" />
+
+            <Button x:Name="btnsumar" Text="Sumar"  Clicked="btnsumar_Clicked" />
+
+            <Button x:Name="btnrestar" Text="Restar"  Clicked="btnrestar_Clicked" />
+
+            <Button x:Name="btnmultiplicar" Text="Multiplicar"  Clicked="btnmultiplicar_Clicked" />
+
+            <Button x:Name="btndividir" Text="Dividir"  Clicked="btndividir_Clicked" />
+
+
+        </StackLayout>
+   </ContentPage.Content>
+
+</ContentPage>

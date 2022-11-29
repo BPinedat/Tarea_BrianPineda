@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio 2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry x:Name="txtnombre" Placeholder="Ingrese Nombre" Keyboard="Text" />
+
+        <Entry x:Name="txtapellidos" Placeholder="Ingrese Apellidos" Keyboard="Text" />
+
+        <Entry x:Name="txttedad" Placeholder="Ingrese Edad" Keyboard="Telephone" />
+
+        <Entry x:Name="txtcorreo" Placeholder="Ingrese correo" Keyboard="Email" />
+
+        <Button x:Name="btnenviar" Text="Enviar Informacion"  Clicked="btnenviar_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
